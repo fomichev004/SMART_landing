@@ -134,10 +134,11 @@ text-align: center;
 	padding-bottom: 170px;
 	background-color: #f4efeb;
 
-}
-.featured_works img {
-    size: 10%;   
-   
+}    /*----------------- над этим блоком стоит поработать -----------------*/
+.featured_works img {   
+       
+    width: inherit;
+    height: inherit;
     
 }
 .featured_works h1 {
