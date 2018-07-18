@@ -135,14 +135,20 @@ text-align: center;
 	background-color: #f4efeb;
 
 }
+.featured_works img {
+    size: 10%;   
+   
+    
+}
 .featured_works h1 {
 	margin-top: 130px;
 
 }
 .feature_works_box {
 	background-color:  #fa8468;
-height: 358px;
-margin-bottom: 25px;
+    width: 358px;
+     height: 360px;
+    margin-bottom: 25px;
 }
 
 
