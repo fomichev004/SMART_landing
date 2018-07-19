@@ -11,210 +11,256 @@ body {
 .header i {
    font-style: 37px;
 }
-
-
 /* Вторая секция */
-.section_head h1 {
-	margin-top: 130px;
-	margin-bottom: 10px;
 
-font-family: 'Open Sans', sans-serif;
-color:  #636363;
-font-size: 50px; 
-font-weight: 600;
-line-height: 45.739px; 
-text-align: center;
+.section_head h1 {
+    margin-top: 130px;
+    margin-bottom: 10px;
+
+    font-family: 'Open Sans', sans-serif;
+    color: #636363;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 45.739px;
+    text-align: center;
 
 }
-.section_head p{
-	margin-bottom: 100px;
+
+.section_head p {
+    margin-bottom: 100px;
 
 }
 
 span {
-font-family: 'Open Sans', sans-serif;
-color:  #fc6744;
+    font-family: 'Open Sans', sans-serif;
+    color: #fc6744;
 
 
 }
+
 p {
-font-family: 'Open Sans', sans-serif;
-color:  rgba(65, 65, 65, 0.7);
-font-size: 16px; 
-font-weight: 400;
-line-height: 24px; 
-text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(65, 65, 65, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
 }
 
 #koc_koi {
-height: 263px;
-background-color:  #4eb2f7;
+    height: 263px;
+    background-color: #4eb2f7;
 
 }
 
 #koimona {
-height: 263px;
-background-color:  #c049f8;
+    height: 263px;
+    background-color: #c049f8;
 }
 
 #setting_koire {
-height: 263px;
-background-color:  #817eff;
+    height: 263px;
+    background-color: #817eff;
 }
 
 #ko_img {
-height: 263px;
-background-color:  #f74770;
+    height: 263px;
+    background-color: #f74770;
 }
 
 .icon-camera {
-	-o-transform: rotate(-30deg);
-	-ms-transform: rotate(-30deg);
-	-moz-transform: rotate(-30deg);
-	-webkit-transform: rotate(-30deg);
-	transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
 }
-.box_button {
-border-radius: 27px;
-background-color:  #ffffff;
-box-shadow: 3px 5px 14px 0px rgba(20, 20, 21, 0.09);
-width: 228px;
-height: 55px;
 
-margin-top: -50px;
-font-family: 'Open Sans', sans-serif;
-color:  #636363;
-font-size: 16px; 
-font-weight: 400;
-line-height: 25px; 
-text-align: center;
-margin-left: 5%;
+.box_button {
+    border-radius: 27px;
+    background-color: #ffffff;
+    box-shadow: 3px 5px 14px 0px rgba(20, 20, 21, 0.09);
+    width: 228px;
+    height: 55px;
+
+    margin-top: -50px;
+    font-family: 'Open Sans', sans-serif;
+    color: #636363;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    margin-left: 5%;
 }
+
 button i {
-	margin-right: 10%;
+    margin-right: 10%;
 }
+
 .box i {
 
-color:  #ffffff;
-font-size: 50px; 
-font-weight: 400;
-line-height: 8px; 
-text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 8px;
+    text-align: center;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
+
 .box {
-	padding-top: 25%;
-}
-.box p {
-font-family: 'Open Sans', sans-serif;
-color:  #ffffff;
-font-size: 15px; 
-font-weight: 400;
-line-height: 22px; 
-text-align: center;
-padding: 10px;
+    padding-top: 25%;
 }
 
-.box_head  {
-font-family: 'Open Sans', sans-serif;
-color:  #ffffff;
-font-size: 20px; 
-font-weight: 600;
-line-height: 42px; 
-text-align: center;
+.box p {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    padding: 10px;
+}
+
+.box_head {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: center;
 }
 
 /* Третья секция */
+
 .featured_works {
-	margin-top: 150px;
-	padding-bottom: 170px;
-	background-color: #f4efeb;
-
-}    /*----------------- над этим блоком стоит поработать -----------------*/
-
-.featured_works h1 {
-	margin-top: 130px;
+    margin-top: 150px;
+    padding-bottom: 170px;
+    background-color: #f4efeb;
 
 }
+
+/*----------------- над этим блоком стоит поработать -----------------*/
+
+.featured_works h1 {
+    margin-top: 130px;
+
+}
+
 .feature_works_box {
-    
-	background-color:  #fa8468;
+
+/*    background-color: #fa8468; */
     width: 100%;
     height: 360px;
     margin-bottom: 25px;
     cursor: pointer;
-    overflow: hidden; /* если элемент больше блока-родителя – обрезаем лишнее */
-    justify-content: center; /*центрируем элемент по горизонтали */
-    
+    overflow: hidden;
+    /* если элемент больше блока-родителя – обрезаем лишнее */
+    justify-content: center;
+    /*центрируем элемент по горизонтали */
 }
-.feature_works_box img {   
-       
-    width:100%;
+
+.feature_works_box img {
+
+    width: 100%;
     height: auto;
-   
- 
-    
+
+
+
 }
 
 
 
 /* Четвертая секция */
-.service_icon {
-border-radius: 2px;
-background-color:  #ffffff;
-box-shadow: 0px 0px 36px 0px rgba(20, 20, 21, 0.2);
-width: 104px;
-height: 92px;
-margin-bottom: 5px;
 
- 	display: flex;           /* establish flex container */
-    flex-direction: column;  /* make main axis vertical */
-    justify-content: center; /* center items vertically, in this case */
-    align-items: center; 
+.service_icon {
+    border-radius: 2px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 36px 0px rgba(20, 20, 21, 0.2);
+    width: 104px;
+    height: 92px;
+    margin-bottom: 5px;
+
+    display: flex;
+    /* establish flex container */
+    flex-direction: column;
+    /* make main axis vertical */
+    justify-content: center;
+    /* center items vertically, in this case */
+    align-items: center;
 }
 
 .border {
-background-color:  #fa8468;
-width: 57px;
-height: 3px;
-margin-bottom: 18px;
-margin-top: 18px;
+    background-color: #fa8468;
+    width: 57px;
+    height: 3px;
+    margin-bottom: 18px;
+    margin-top: 18px;
 }
 
-.services_text_head{
-font-family: 'Open Sans', sans-serif;
-color:  #636363;
-font-size: 30px; 
-font-weight: 400;
-line-height: 45.739px; 
-text-align: center;
+.services_text_head {
+    font-family: 'Open Sans', sans-serif;
+    color: #636363;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45.739px;
+    text-align: center;
 }
+
 .services {
-	padding-bottom: 180px;
+    padding-bottom: 180px;
 }
 
-.services_text_head, .services_text p {
-	text-align: left;
+.services_text_head,
+.services_text p {
+    text-align: left;
 }
-.services_text button{
-border-radius: 27px;
-background-color:  #ffffff;
-box-shadow: 3px 5px 14px 0px rgba(20, 20, 21, 0.09);
-width: 228px;
-height: 55px;
-font-family: 'Open Sans', sans-serif;
-color:  #636363;
-font-size: 16px; 
-font-weight: 400;
-line-height: 25px; 
-margin-top: 40px;
+
+.services_text button {
+    border-radius: 27px;
+    background-color: #ffffff;
+    box-shadow: 3px 5px 14px 0px rgba(20, 20, 21, 0.09);
+    width: 228px;
+    height: 55px;
+    font-family: 'Open Sans', sans-serif;
+    color: #636363;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 40px;
 
 }
 
-button:focus {     /*отменяет выделение кнопки*/	
-	outline: none;
+button:focus {    /*отменяет выделение кнопки*/
+    outline: none;
+}
+
+
+.team {
+    
+    padding-bottom: 305px;
+    background-color: #f4efeb;
+}
+
+.team_card, .team_card_middle {
+    width: 360px;
+    height: 445px;
+    margin-bottom: 25px;   
+    overflow: hidden;    /* если элемент больше блока-родителя – обрезаем лишнее */
+    justify-content: center;    /*центрируем элемент по горизонтали */
+    background-color: darkorange;
+  
+    
+    
+}
+.team_card img, .team_card_middle img {
+    
+    height: 100%;
+    
+}
+.team_card_middle {
+    background-color: antiquewhite;
 }
