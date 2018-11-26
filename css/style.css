@@ -1,277 +1,223 @@
-
- /*reset .css*/
- @charset utf-8; 
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{background: none repeat scroll 0 0 transparent;border: 0 none;font-size: 100%;outline: 0 none;vertical-align: baseline;margin: 0;padding: 0;}table{border-collapse:collapse;border-spacing:0;}address,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,nav,menu,nav,section,summary{display:block;}  a, a:hover,button,button:hover, .anime, .small_btn, .btn:hover .small_btn   {-moz-transition:all 200ms linear;-ms-transition:all 200ms linear;-o-transition:all 200ms linear;-webkit-transition:all 200ms linear;transition:all 200ms linear;}  button{cursor:pointer;}  *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;} 
+/*reset .css*/
+@charset utf-8;
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{background: none repeat scroll 0 0 transparent;border: 0 none;font-size: 100%;outline: 0 none;vertical-align: baseline;margin: 0;padding: 0;}table{border-collapse:collapse;border-spacing:0;}address,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,nav,menu,nav,section,summary{display:block;}  a, a:hover,button,button:hover, .anime, .small_btn, .btn:hover .small_btn   {-moz-transition:all 200ms linear;-ms-transition:all 200ms linear;-o-transition:all 200ms linear;-webkit-transition:all 200ms linear;transition:all 200ms linear;}  button{cursor:pointer;}  *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;}
 body {
-	font-family: sans-serif;
+font-family: sans-serif;
 }
 .header {
-    padding-top: 80px;
+padding-top: 80px;
 }
 .header i {
-   font-style: 37px;
+font-style: 37px;
 }
 /* Вторая секция */
-
 .section_head h1 {
-    margin-top: 130px;
-    margin-bottom: 10px;
-
-    font-family: 'Open Sans', sans-serif;
-    color: #636363;
-    font-size: 50px;
-    font-weight: 600;
-    line-height: 45.739px;
-    text-align: center;
-
+margin-top: 130px;
+margin-bottom: 10px;
+font-family: 'Open Sans', sans-serif;
+color: #636363;
+font-size: 50px;
+font-weight: 600;
+line-height: 45.739px;
+text-align: center;
 }
-
 .section_head p {
-    margin-bottom: 100px;
-
+margin-bottom: 100px;
 }
-
 span {
-    font-family: 'Open Sans', sans-serif;
-    color: #fc6744;
-
-
+font-family: 'Open Sans', sans-serif;
+color: #fc6744;
 }
 
 p {
-    font-family: 'Open Sans', sans-serif;
-    color: rgba(65, 65, 65, 0.7);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: center;
+font-family: 'Open Sans', sans-serif;
+color: rgba(65, 65, 65, 0.7);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
 }
-
 #koc_koi {
-    height: 263px;
-    background-color: #4eb2f7;
-
+height: 263px;
+background-color: #4eb2f7;
 }
-
 #koimona {
-    height: 263px;
-    background-color: #c049f8;
+height: 263px;
+background-color: #c049f8;
 }
-
 #setting_koire {
-    height: 263px;
-    background-color: #817eff;
+height: 263px;
+background-color: #817eff;
 }
-
 #ko_img {
-    height: 263px;
-    background-color: #f74770;
+height: 263px;
+background-color: #f74770;
 }
-
 .icon-camera {
-    -o-transform: rotate(-30deg);
-    -ms-transform: rotate(-30deg);
-    -moz-transform: rotate(-30deg);
-    -webkit-transform: rotate(-30deg);
-    transform: rotate(-30deg);
+-o-transform: rotate(-30deg);
+-ms-transform: rotate(-30deg);
+-moz-transform: rotate(-30deg);
+-webkit-transform: rotate(-30deg);
+transform: rotate(-30deg);
 }
-
 .box_button {
+border: none;
+display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+top: auto;
+margin-top: 130px;
+border-radius: 30px;
+background-color: #fff;
+box-shadow: 0px 1px 1px 1px rgba(20, 20, 21, 0.1);
+width: 230px;
+height: 55px;
 
-    border-radius: 30px;
-    background-color: #ffffff;
-    box-shadow: 3px 5px 14px 0px rgba(20, 20, 21, 0.09);
-    width: 230px;
-    height: 55px;
 
-    
-    font-family: 'Open Sans', sans-serif;
-    color: #636363;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 25px;
-    
- 
+font-family: 'Open Sans', sans-serif;
+color: #636363;
+font-size: 16px;
+font-weight: 400;
+line-height: 25px;
 }
-
-.button_ico_plus i {
-    margin-right: 10%;
-    color: red;
-} i {
-    margin-right: 10%;
+.box_button:hover {
+box-shadow: 6px 10px 25px 0px rgba(20, 20, 21, 0.4);
 }
-.box {   
+button i {
+margin-right: 10%;
+color: #636363;
+}
+.box {
+    position: relative;
     display: flex;
     position: relative;
     justify-content: center;
     align-items: center;
-   }
-
-  
-
-
-
-            .box i {
-                
-                color: #ffffff;
-                font-size: 50px;
-                font-weight: 400;
-                line-height: 8px;
-              
-
-              
-                
-            }
-
-            .box p {
-                
-                font-family: 'Open Sans', sans-serif;
-                color: #ffffff;
-                font-size: 15px;
-                font-weight: 400;
-                line-height: 22px;
-                text-align: center;
-                padding: 10px;
-
-            }
-
-            .box_head {
-                
-                font-family: 'Open Sans', sans-serif;
-                color: #ffffff;
-                font-size: 20px;
-                font-weight: 600;
-                line-height: 42px;
-                text-align: center;
-            }
-
-/* Третья секция */
-
-.featured_works {
-    margin-top: 150px;
-    padding-bottom: 170px;
-    background-color: #f4efeb;
-
 }
-
-/*----------------- над этим блоком стоит поработать -----------------*/
-
-.featured_works h1 {
-    margin-top: 130px;
-
-}
-
-.feature_works_box {
-
-/*    background-color: #fa8468; */
-    width: 100%;
-    height: 360px;
-    margin-bottom: 25px;
-    cursor: pointer;
-    overflow: hidden;
-    /* если элемент больше блока-родителя – обрезаем лишнее */
-    justify-content: center;
-    /*центрируем элемент по горизонтали */
-}
-
-.feature_works_box img {
-
-    width: 100%;
-    height: auto;
-
-
-
-}
-
-
-
-/* Четвертая секция */
-
-.service_icon {
-    border-radius: 2px;
-    background-color: #ffffff;
-    box-shadow: 0px 0px 36px 0px rgba(20, 20, 21, 0.2);
-    width: 104px;
-    height: 92px;
-    margin-bottom: 5px;
-
-    display: flex;
-    /* establish flex container */
-    flex-direction: column;
-    /* make main axis vertical */
-    justify-content: center;
-    /* center items vertically, in this case */
-    align-items: center;
-}
-
-.border {
-    background-color: #fa8468;
-    width: 57px;
-    height: 3px;
-    margin-bottom: 18px;
-    margin-top: 18px;
-}
-
-.services_text_head {
-    font-family: 'Open Sans', sans-serif;
-    color: #636363;
-    font-size: 30px;
+.box_icon {
+    color: #fff;
+    font-size: 50px;
     font-weight: 400;
-    line-height: 45.739px;
+    line-height: 8px;
+}
+
+.box p {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    padding: 10px;
+}
+.box_head {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 42px;
     text-align: center;
 }
 
-.services {
-    padding-bottom: 180px;
+/* Третья секция */
+.featured_works {
+margin-top: 150px;
+padding-bottom: 170px;
+background-color: #f4efeb;
 }
-
+/*----------------- над этим блоком стоит поработать -----------------*/
+.featured_works h1 {
+margin-top: 130px;
+}
+.feature_works_box {
+/*    background-color: #fa8468; */
+width: 100%;
+height: 360px;
+margin-bottom: 25px;
+cursor: pointer;
+overflow: hidden;
+/* если элемент больше блока-родителя – обрезаем лишнее */
+justify-content: center;
+/*центрируем элемент по горизонтали */
+}
+.feature_works_box img {
+width: 100%;
+height: auto;
+}
+/* Четвертая секция */
+.service_icon {
+border-radius: 2px;
+background-color: #ffffff;
+box-shadow: 0px 0px 36px 0px rgba(20, 20, 21, 0.2);
+width: 104px;
+height: 92px;
+margin-bottom: 5px;
+display: flex;
+/* establish flex container */
+flex-direction: column;
+/* make main axis vertical */
+justify-content: center;
+/* center items vertically, in this case */
+align-items: center;
+}
+.border {
+background-color: #fa8468;
+width: 57px;
+height: 3px;
+margin-bottom: 18px;
+margin-top: 18px;
+}
+.services_text_head {
+font-family: 'Open Sans', sans-serif;
+color: #636363;
+font-size: 30px;
+font-weight: 400;
+line-height: 45.739px;
+text-align: center;
+}
+.services {
+padding-bottom: 180px;
+}
 .services_text_head,
 .services_text p {
-    text-align: left;
+text-align: left;
 }
-
 .services_text button {
-    border-radius: 27px;
-    background-color: #ffffff;
-    box-shadow: 3px 5px 14px 0px rgba(20, 20, 21, 0.09);
-    width: 228px;
-    height: 55px;
-    font-family: 'Open Sans', sans-serif;
-    color: #636363;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 25px;
-    margin-top: 40px;
-
+border-radius: 27px;
+background-color: #ffffff;
+box-shadow: 3px 5px 14px 0px rgba(20, 20, 21, 0.09);
+width: 228px;
+height: 55px;
+font-family: 'Open Sans', sans-serif;
+color: #636363;
+font-size: 16px;
+font-weight: 400;
+line-height: 25px;
+margin-top: 40px;
 }
 
 button:focus {    /*отменяет выделение кнопки*/
-    outline: none;
+outline: none;
 }
-
 
 .team {
-    
-    padding-bottom: 305px;
-    background-color: #f4efeb;
+padding-bottom: 305px;
+background-color: #f4efeb;
+}
+.team_card, .team_card_middle {
+width: 360px;
+height: 445px;
+margin-bottom: 25px;
+overflow: hidden;    /* если элемент больше блока-родителя – обрезаем лишнее */
+justify-content: center;    /*центрируем элемент по горизонтали */
+background-color: darkorange;
 }
 
-.team_card, .team_card_middle {
-    width: 360px;
-    height: 445px;
-    margin-bottom: 25px;   
-    overflow: hidden;    /* если элемент больше блока-родителя – обрезаем лишнее */
-    justify-content: center;    /*центрируем элемент по горизонтали */
-    background-color: darkorange;
-  
-    
-    
-}
 .team_card img, .team_card_middle img {
-    
-    height: 100%;
-    
+height: 100%;
 }
+
 .team_card_middle {
-    background-color: antiquewhite;
+background-color: antiquewhite;
 }
